@@ -1,0 +1,11 @@
+Buildfile: M:\FiftyOneDegrees\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 32 files to M:\FiftyOneDegrees\deployment
+     [copy] Copying 10 files to M:\FiftyOneDegrees\deployment\model\lib\userlib
+     [copy] Copying 1 file to M:\FiftyOneDegrees\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

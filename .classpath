@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="javasource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/8.3.0.61600/runtime/bundles/com.mendix.json.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/8.3.0.61600/runtime/bundles/com.mendix.logging-api.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/8.3.0.61600/runtime/bundles/com.mendix.m2ee-api.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/8.3.0.61600/runtime/bundles/com.mendix.public-api.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/8.3.0.61600/runtime/bundles/javax.servlet-api.servlet.jar"/>
+	<classpathentry kind="lib" path="userlib/device-detection-core-3.2.2.20-beta.jar"/><classpathentry kind="lib" path="userlib/logback-classic-1.1.3.jar"/><classpathentry kind="lib" path="userlib/slf4j-api-1.7.7.jar"/><classpathentry kind="lib" path="userlib/ant-contrib-1.0b3.jar"/><classpathentry kind="lib" path="userlib/logback-core-1.1.3.jar"/><classpathentry kind="lib" path="userlib/ant-1.5.jar"/>
+	<classpathentry kind="output" path="deployment/run/bin"/>
+</classpath>

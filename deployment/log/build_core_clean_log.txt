@@ -1,0 +1,10 @@
+Buildfile: M:\FiftyOneDegrees\deployment\build_core.xml
+
+clean:
+   [delete] Deleting directory M:\FiftyOneDegrees\deployment\model
+   [delete] Deleting directory M:\FiftyOneDegrees\deployment\run
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

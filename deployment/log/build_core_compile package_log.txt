@@ -1,0 +1,12 @@
+Buildfile: M:\FiftyOneDegrees\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 3 source files to M:\FiftyOneDegrees\deployment\run\bin
+
+package:
+      [jar] Building jar: M:\FiftyOneDegrees\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+
