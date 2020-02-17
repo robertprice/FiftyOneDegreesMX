@@ -32,6 +32,4 @@ proxies
 .settings
 .svn
 
-userlib/
-
 .DS_Store

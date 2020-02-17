@@ -24,7 +24,9 @@ public class Browser
 		ScreenPixelsHeight("ScreenPixelsHeight"),
 		ScreenPixelsWidth("ScreenPixelsWidth"),
 		PlatformName("PlatformName"),
-		PlatformVersion("PlatformVersion");
+		PlatformVersion("PlatformVersion"),
+		BrowserName("BrowserName"),
+		BrowserVersion("BrowserVersion");
 
 		private java.lang.String metaName;
 
@@ -289,6 +291,78 @@ public class Browser
 	public final void setPlatformVersion(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String platformversion)
 	{
 		getMendixObject().setValue(context, MemberNames.PlatformVersion.toString(), platformversion);
+	}
+
+	/**
+	 * @return value of BrowserName
+	 */
+	public final java.lang.String getBrowserName()
+	{
+		return getBrowserName(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of BrowserName
+	 */
+	public final java.lang.String getBrowserName(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.BrowserName.toString());
+	}
+
+	/**
+	 * Set value of BrowserName
+	 * @param browsername
+	 */
+	public final void setBrowserName(java.lang.String browsername)
+	{
+		setBrowserName(getContext(), browsername);
+	}
+
+	/**
+	 * Set value of BrowserName
+	 * @param context
+	 * @param browsername
+	 */
+	public final void setBrowserName(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String browsername)
+	{
+		getMendixObject().setValue(context, MemberNames.BrowserName.toString(), browsername);
+	}
+
+	/**
+	 * @return value of BrowserVersion
+	 */
+	public final java.lang.String getBrowserVersion()
+	{
+		return getBrowserVersion(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of BrowserVersion
+	 */
+	public final java.lang.String getBrowserVersion(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.BrowserVersion.toString());
+	}
+
+	/**
+	 * Set value of BrowserVersion
+	 * @param browserversion
+	 */
+	public final void setBrowserVersion(java.lang.String browserversion)
+	{
+		setBrowserVersion(getContext(), browserversion);
+	}
+
+	/**
+	 * Set value of BrowserVersion
+	 * @param context
+	 * @param browserversion
+	 */
+	public final void setBrowserVersion(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String browserversion)
+	{
+		getMendixObject().setValue(context, MemberNames.BrowserVersion.toString(), browserversion);
 	}
 
 	/**

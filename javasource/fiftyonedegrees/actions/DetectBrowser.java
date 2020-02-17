@@ -19,6 +19,9 @@ import fiftyone.mobile.detection.factories.StreamFactory;
 import java.io.File;
 import fiftyonedegrees.proxies.Browser;
 
+/**
+ * Try to detect browser properties and features from a browser user agent string. This uses the 51Degrees Lite library.
+ */
 public class DetectBrowser extends CustomJavaAction<IMendixObject>
 {
 	private java.lang.String UserAgent;
@@ -52,6 +55,8 @@ public class DetectBrowser extends CustomJavaAction<IMendixObject>
 			browser.setScreenPixelsWidth(parseInt(match.getValues("ScreenPixelsWidth").toString()));
 			browser.setPlatformName(match.getValues("PlatformName").toString());
 			browser.setPlatformVersion(match.getValues("PlatformVersion").toString());
+			browser.setBrowserName(match.getValues("BrowserName").toString());
+			browser.setBrowserVersion(match.getValues("BrowserVersion").toString());
 			result = browser.getMendixObject();
 		} finally {
 			provider.dataSet.close();
