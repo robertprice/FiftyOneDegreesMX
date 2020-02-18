@@ -1,7 +1,7 @@
 Buildfile: M:\FiftyOneDegrees\deployment\build_core.xml
 
 compile:
-    [javac] Compiling 1 source file to M:\FiftyOneDegrees\deployment\run\bin
+    [javac] Compiling 2 source files to M:\FiftyOneDegrees\deployment\run\bin
 
 package:
       [jar] Building jar: M:\FiftyOneDegrees\deployment\model\bundles\project.jar

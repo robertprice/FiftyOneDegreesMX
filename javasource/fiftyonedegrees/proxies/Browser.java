@@ -4,6 +4,9 @@
 
 package fiftyonedegrees.proxies;
 
+/**
+ * This entity is returned by the DetectBrowser Java Action and contains the detected properties for a Browser.
+ */
 public class Browser
 {
 	private final com.mendix.systemwideinterfaces.core.IMendixObject browserMendixObject;
