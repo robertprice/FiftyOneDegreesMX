@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.coverwise</groupId>
 	<artifactId>FiftyOneDegrees</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<properties>
 		<mendixInstallDir>C:\Program Files\Mendix</mendixInstallDir>
 		<mendixVersion>8.3.0.61600</mendixVersion>
